@@ -51,7 +51,7 @@ def processVideo (gap):
     raw = []
     base = [[], []]
     baseFound = False
-    vid = cv2.VideoCapture (filepath ("target.MP4"))
+    vid = cv2.VideoCapture (filepath ("sample.MP4"))
     totalFrames = vid.get (cv2.CAP_PROP_FRAME_COUNT)
     #totalFrames = 150
     currentFrame = 0
